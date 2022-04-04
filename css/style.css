@@ -1,0 +1,16 @@
+[class*="col-"]{
+    background-color: lightskyblue;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+[class*="col"] [class*="col"]{
+    background-color: yellowgreen;
+    border: 1px solid lightskyblue;
+    height: 30px;
+    padding: 5px;
+}
+
