@@ -1,0 +1,53 @@
+
+/* TYPE */
+body{
+    color: rgb(31, 31, 114);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* COMMONS */
+img{
+    height: 50px;
+}
+
+button{
+    padding: 5px 8px;
+}
+
+/* HEADER */
+.row{
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.logo{
+    padding-left: 5px;
+}
+
+.login, .brand{
+    display: none;
+}
+
+.hamburger{
+   font-size: 25px;
+   text-align: right;
+   padding-right: 10px;
+}
+
+@media screen and (min-width: 576px) {
+    .login, .brand{
+        display: block;
+    }
+}
